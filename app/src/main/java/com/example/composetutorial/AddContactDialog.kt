@@ -11,6 +11,7 @@ import androidx.compose.material.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -36,7 +37,8 @@ fun AddContactDialog(
                     },
                     placeholder = {
                         Text(text = "First name")
-                    }
+                    },
+                    modifier = Modifier.testTag("first_name_field")
                 )
                 TextField(
                     value = state.lastName,
@@ -45,7 +47,8 @@ fun AddContactDialog(
                     },
                     placeholder = {
                         Text(text = "Last name")
-                    }
+                    },
+                    modifier = Modifier.testTag("last_name_field")
                 )
                 TextField(
                     value = state.phoneNumber,
@@ -54,7 +57,8 @@ fun AddContactDialog(
                     },
                     placeholder = {
                         Text(text = "Phone number")
-                    }
+                    },
+                    modifier = Modifier.testTag("phone_field")
                 )
             }
         },

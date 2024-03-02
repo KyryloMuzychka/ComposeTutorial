@@ -2,6 +2,18 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="AddContactDialogTest">
+        <State />
+      </entry>
+      <entry key="AddContactDialogTest (1)">
+        <State />
+      </entry>
+      <entry key="ContactScreenTest">
+        <State />
+      </entry>
+      <entry key="addContactDialogDisplayed() (1)">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>

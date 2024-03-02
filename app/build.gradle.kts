@@ -72,4 +72,6 @@ dependencies {
     implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
     implementation("androidx.compose.material:material:1.4.1")
     implementation("androidx.compose.material3:material3:1.0.1")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:$version")
+    debugImplementation("androidx.compose.ui:ui-test-manifest:$rootProject.composeVersion")
 }
